@@ -37,7 +37,7 @@ void loop() {
  Serial.print(F("Targeta UID:"));
     dump_byte_array(mfrc522.uid.uidByte, mfrc522.uid.size);
        
-servo1.write(90);
+servo1.write(130);
 digitalWrite(ledVerd ,LOW);
 digitalWrite(ledVermell,LOW);
 digitalWrite(ledBlau,LOW);
